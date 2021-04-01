@@ -1,9 +1,12 @@
 'use strict';
-let HaiDer = "Developer";
-
-function hasHaider() {
- console.log("I'm Developer")
+const developer = function () {
+    console.log("Javascript is very well");
 }
 
+const hiader = function () {
+    console.log("I'm developer ");
+}
 
-module[HaiDer] = hasHaider();
+module.exports.developer = developer;
+module.exports.haider = hiader;
+
